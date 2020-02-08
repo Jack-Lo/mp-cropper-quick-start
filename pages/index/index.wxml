@@ -1,0 +1,6 @@
+<view class="container">
+  <view class="userinfo">
+    <button bind:tap="pickAvt"> 选择图片 </button>
+    <image class="img" src="{{path}}" wx:if="{{path}}" />
+  </view>
+</view>

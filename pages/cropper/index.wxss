@@ -1,0 +1,22 @@
+.action {
+  position: absolute;
+  bottom: 40rpx;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  padding: 0 40rpx;
+  z-index: 2;
+}
+
+.action .btn {
+  color: #fff;
+  font-size: 36rpx;
+}
+
+.action .btn.confirm {
+  color: #1AAD19;
+  font-weight: bold;
+}

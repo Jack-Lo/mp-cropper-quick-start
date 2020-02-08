@@ -1,0 +1,14 @@
+<mp-cropper
+  width="{{sysInfo.windowWidth}}"
+  height="{{sysInfo.windowHeight}}"
+  src="{{src}}"
+  crop="{{crop}}"
+  bind:crop="onCropperCrop"
+  bind:error="onCropperError"
+  wx:if="{{src}}"
+>
+  <cover-view class="action">
+    <cover-view class="btn cancel" bindtap="cancel">取消</cover-view>
+    <cover-view class="btn confirm" bindtap="confirm">确定</cover-view>
+  </cover-view>
+</mp-cropper>

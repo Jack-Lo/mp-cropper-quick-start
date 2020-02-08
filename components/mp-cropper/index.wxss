@@ -1,0 +1,14 @@
+.mp-cropper {
+  position: relative;
+}
+
+.mp-cropper .cvs {
+  position: relative;
+  display: block;
+}
+
+.mp-cropper .front_cvs {
+  position: absolute;
+  left: 0;
+  top: 0;
+}

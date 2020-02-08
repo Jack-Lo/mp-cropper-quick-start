@@ -1,0 +1,17 @@
+<view class="mp-cropper" style="width: {{width}}px; height: {{height}}px;">
+  <canvas
+    canvas-id="{{CROPPER_CVS_ID}}"
+    class="cvs"
+    style="width: {{width}}px; height: {{height}}px;"
+  />
+  <canvas
+    canvas-id="{{CROPPER_FRONT_CVS_ID}}"
+    class="front_cvs"
+    style="width: {{width}}px; height: {{height}}px;"
+    bindtouchmove="drag"
+    bindtouchstart="startTap"
+    bindtouchend="endTap"
+  >
+    <slot></slot>
+  </canvas>
+</view>
